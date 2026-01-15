@@ -1,0 +1,10 @@
+@import 'tailwindcss';
+
+@import './fonts.css';
+@import './theme.css';
+@import './base.css';
+@import './animations.css';
+
+@source "../../**/*.{js,ts,jsx,tsx}";
+
+

@@ -1,0 +1,149 @@
+@layer base {
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes drawer-slide-in-right {
+    from {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  @keyframes drawer-slide-out-right {
+    from {
+      opacity: 1;
+      transform: translateX(0);
+      right: 0;
+    }
+    to {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+  }
+  @keyframes drawer-slide-in-left {
+    from {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  @keyframes drawer-slide-out-left {
+    from {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    to {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+  }
+  @keyframes drawer-slide-in-top {
+    from {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes drawer-slide-out-top {
+    from {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    to {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+  }
+  @keyframes drawer-slide-in-bottom {
+    from {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes drawer-slide-out-bottom {
+    from {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    to {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+  }
+}
+
+@layer utilities {
+  .animate-spin {
+    animation: spin 1s linear infinite;
+  }
+
+  .animate-drawer-slide-in-right {
+    animation: drawer-slide-in-right 0.3s ease-out;
+  }
+  .animate-drawer-slide-out-right {
+    animation: drawer-slide-out-right 0.2s ease-in;
+  }
+  .animate-drawer-slide-in-left {
+    animation: drawer-slide-in-left 0.3s ease-out;
+  }
+  .animate-drawer-slide-out-left {
+    animation: drawer-slide-out-left 0.2s ease-in;
+  }
+  .animate-drawer-slide-in-top {
+    animation: drawer-slide-in-top 0.3s ease-out;
+  }
+  .animate-drawer-slide-out-top {
+    animation: drawer-slide-out-top 0.2s ease-in;
+  }
+  .animate-drawer-slide-in-bottom {
+    animation: drawer-slide-in-bottom 0.3s ease-out;
+  }
+  .animate-drawer-slide-out-bottom {
+    animation: drawer-slide-out-bottom 0.2s ease-in;
+  }
+}
+
+/* ===== RADIX UI VARIANTS ===== */
+/* These variants allow you to use Radix data-state attributes with Tailwind classes */
+
+/* Accordion states */
+@variant open (&[data-state="open"]);
+@variant closed (&[data-state="closed"]);
+
+/* Dialog states */
+@variant dialog-open (&[data-state="open"]);
+@variant dialog-closed (&[data-state="closed"]);
+
+/* Side states (for drawer/sheet) */
+@variant side-top (&[data-side="top"]);
+@variant side-right (&[data-side="right"]);
+@variant side-bottom (&[data-side="bottom"]);
+@variant side-left (&[data-side="left"]);
+
+/* Orientation */
+@variant horizontal (&[data-orientation="horizontal"]);
+@variant vertical (&[data-orientation="vertical"]);
+
+/* Disabled state */
+@variant disabled (&:disabled, &[data-disabled]);
+@variant enabled (&:not(:disabled):not([data-disabled]));
+
+/* Focus/hover with data attributes */
+@variant focus-visible (&:focus-visible, &[data-focus-visible]);
+@variant hover-enabled (&:hover:not([data-disabled]));

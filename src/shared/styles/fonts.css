@@ -1,0 +1,159 @@
+@font-face {
+  font-family: 'Italian Plate No2 Expanded';
+  src: url('../../assets/fonts/Italian Plate No2 Expanded Ultralight.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Italian Plate No2 Expanded';
+  src: url('../../assets/fonts/Italian Plate No2 Expanded Ultralight Italic.woff2') format('woff2');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Italian Plate No2 Expanded';
+  src: url('../../assets/fonts/Italian Plate No2 Expanded Extralight.woff2') format('woff2');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Italian Plate No2 Expanded';
+  src: url('../../assets/fonts/Italian Plate No2 Expanded Extralight Italic.woff2') format('woff2');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Italian Plate No2 Expanded';
+  src: url('../../assets/fonts/Italian Plate No2 Expanded Thin.woff2') format('woff2');
+  font-weight: 250;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Italian Plate No2 Expanded';
+  src: url('../../assets/fonts/Italian Plate No2 Expanded Thin Italic.woff2') format('woff2');
+  font-weight: 250;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Italian Plate No2 Expanded';
+  src: url('../../assets/fonts/Italian Plate No2 Expanded Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Italian Plate No2 Expanded';
+  src: url('../../assets/fonts/Italian Plate No2 Expanded Light Italic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Italian Plate No2 Expanded';
+  src: url('../../assets/fonts/Italian Plate No2 Expanded.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Italian Plate No2 Expanded';
+  src: url('../../assets/fonts/Italian Plate No2 Expanded Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Italian Plate No2 Expanded';
+  src: url('../../assets/fonts/Italian Plate No2 Expanded Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Italian Plate No2 Expanded';
+  src: url('../../assets/fonts/Italian Plate No2 Expanded Medium Italic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Italian Plate No2 Expanded';
+  src: url('../../assets/fonts/Italian Plate No2 Expanded Demibold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Italian Plate No2 Expanded';
+  src: url('../../assets/fonts/Italian Plate No2 Expanded Demibold Italic.woff2') format('woff2');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Italian Plate No2 Expanded';
+  src: url('../../assets/fonts/Italian Plate No2 Expanded Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Italian Plate No2 Expanded';
+  src: url('../../assets/fonts/Italian Plate No2 Expanded Bold Italic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Italian Plate No2 Expanded';
+  src: url('../../assets/fonts/Italian Plate No2 Expanded Extrabold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Italian Plate No2 Expanded';
+  src: url('../../assets/fonts/Italian Plate No2 Expanded Extrabold Italic.woff2') format('woff2');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Italian Plate No2 Expanded';
+  src: url('../../assets/fonts/Italian Plate No2 Expanded Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Italian Plate No2 Expanded';
+  src: url('../../assets/fonts/Italian Plate No2 Expanded Black Italic.woff2') format('woff2');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}

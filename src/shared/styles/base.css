@@ -1,0 +1,127 @@
+
+@layer base {
+  :root {
+    *,
+    *::before,
+    *::after {
+      @apply box-border;
+    }
+
+    html {
+      @apply h-full scroll-smooth;
+    }
+
+    body {
+      @apply text-black bg-white font-italianNo2 h-full leading-5;
+    }
+
+    #root {
+      @apply h-full;
+    }
+
+    /* Remove default styling */
+    ul,
+    ol {
+      @apply list-none;
+    }
+
+    img,
+    picture,
+    video,
+    canvas,
+    svg {
+      @apply block max-w-full;
+    }
+
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      @apply wrap-break-word;
+    }
+
+    .font-capsize {
+      @apply inline-block pt-[0.12em] leading-none;
+    }
+
+    /* Accessibility */
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        animation-duration: 0.01ms;
+        animation-iteration-count: 1;
+        transition-duration: 0.01ms;
+      }
+    }
+
+    /* Focus management */
+    [tabindex='-1']:focus {
+      @apply outline-none;
+    }
+
+    /* Remove outline for mouse users */
+    :focus:not(:focus-visible) {
+      @apply outline-none;
+    }
+
+    /* Layout */
+    .container {
+      @apply mx-auto max-w-[1200px] px-4 lg:px-6;
+    }
+
+    /* Focus */
+    :focus-visible {
+      @apply outline-2 outline-offset-2 outline-blue-600;
+    }
+
+    /* Links */
+    a {
+      @apply transition-colors duration-300 underline-offset-4 underline hover:no-underline;
+    }
+
+    /* Forms */
+    input,
+    textarea,
+    select {
+      @apply transition-colors;
+    }
+    input[type='file']::-webkit-file-upload-button {
+      @apply mr-4 rounded-lg bg-transparent px-3 py-1 text-sm font-medium;
+    }
+
+    /* Button states */
+    button {
+      @apply cursor-pointer;
+    }
+
+    button:disabled {
+      @apply cursor-not-allowed;
+    }
+
+    /* ===== Global Scrollbar Styles ===== */
+
+    ::-webkit-scrollbar-corner {
+      display: none;
+    }
+
+    ::-webkit-scrollbar {
+      @apply w-[10px] h-[10px];
+    }
+
+    ::-webkit-scrollbar-thumb {
+      @apply bg-gray-400 border-transparent border-[3px] rounded-full bg-clip-padding;
+    }
+
+    ::-webkit-scrollbar-track {
+      @apply bg-transparent;
+    }
+
+    ::-webkit-scrollbar-button {
+      @apply hidden;
+    }
+  }
+}
