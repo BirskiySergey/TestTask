@@ -123,7 +123,7 @@ const AvatarGenerationDrawer = ({ children }: {children: React.ReactNode}) => {
             variant={ButtonVariant.DEFAULT} 
             prefixElement={<Sparkles className="w-4 h-4 text-emerald-400" />}
             onClick={handleGenerate}
-            disabled={isGenerating}
+            disabled={isGenerating || !value.trim()}
             >
               <span className="font-capsize">Generate BG for 1 credit</span>
           </Button>
